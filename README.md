@@ -33,23 +33,25 @@ Run the script:
 
 ```bash
 python agentic_ollama.py
+```
 
 Input your query when prompted, and the system will generate a step-by-step reasoning response, which will be logged both in the console and in a CSV file (response_log.csv).
 
 ## Configuration
 
-config.yaml: The configuration file allows you to set the Ollama model and API endpoint.
-Logging: Log files are rotated and saved under agentic_ollama.log with detailed information about each API call and any encountered errors.
-Example
-Here is an example of a valid AI-generated response:
+   config.yaml: The configuration file allows you to set the Ollama model and API endpoint.
+   Logging: Log files are rotated and saved under agentic_ollama.log with detailed information about each API call and any encountered errors.
+   Example
+   Here is an example of a valid AI-generated response:
 
 json
-Copy code
-{
-  "title": "Step 1: Identifying Characters",
-  "content": "First, I will identify all the characters in the word 'strawberry' to accurately count the number of 'r's.",
-  "next_action": "continue"
-}
+```bash
+   {
+     "title": "Step 1: Identifying Characters",
+     "content": "First, I will identify all the characters in the word 'strawberry' to accurately count the number of 'r's.",
+     "next_action": "continue"
+   }
+```
 
 ## Error Handling
 
