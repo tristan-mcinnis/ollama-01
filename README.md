@@ -1,18 +1,19 @@
 This repository contains a Python script designed to interact with the Ollama Llama3.2 model to generate step-by-step AI-driven reasoning. The assistant provides structured JSON responses for each reasoning phase and offers detailed explanations of its thought process.
 
-Features
-Step-by-step Reasoning: The AI breaks down its thought process, generating individual steps for clear reasoning.
-Strict JSON Formatting: The system responds with a well-structured JSON object that includes a title, content, and next action (continue or final_answer).
-Error Handling: Built-in logging and error handling ensure the system can retry failed API calls and manage invalid responses.
-Configuration via YAML: Easily configure the Ollama API URL and model via a config.yaml file.
-CSV Logging: Saves the AI’s responses and thinking time to a CSV file for further analysis.
-Installation
-Clone the repository:
+## Features
 
-bash
-Copy code
-git clone https://github.com/your-username/agentic-ollama.git
-cd agentic-ollama
+- **Step-by-step Reasoning:** The AI breaks down its thought process, generating individual steps for clear reasoning.
+- **Strict JSON Formatting:** The system responds with a well-structured JSON object that includes a title, content, and next action (`continue` or `final_answer`).
+- **Error Handling:** Built-in logging and error handling ensure the system can retry failed API calls and manage invalid responses.
+- **Configuration via YAML:** Easily configure the Ollama API URL and model via a `config.yaml` file.
+- **CSV Logging:** Saves the AI’s responses and thinking time to a CSV file for further analysis.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/agentic-ollama.git
+   cd agentic-ollama
 Install required dependencies:
 
 bash
