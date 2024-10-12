@@ -12,8 +12,8 @@ This repository contains a Python script designed to interact with the Ollama Ll
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/agentic-ollama.git
-   cd agentic-ollama
+   git clone https://github.com/tristan-mcinnis/ollama-01.git
+   cd ollama-01
 Install required dependencies:
 
 bash
@@ -32,7 +32,7 @@ system_prompt: |
 Run the script:
 
 ```bash
-python agentic_ollama.py
+python 01_llama.py
 ```
 
 Input your query when prompted, and the system will generate a step-by-step reasoning response, which will be logged both in the console and in a CSV file (response_log.csv).
